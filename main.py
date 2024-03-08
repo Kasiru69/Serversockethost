@@ -20,7 +20,7 @@ def handle_client(client_socket, addr,player):
     client_socket.close()
     print(f"Connection from {addr} closed")
 
-host='0.0.0.0'
+host='serversockethost-2.onrender.com'
 port = 5001
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
